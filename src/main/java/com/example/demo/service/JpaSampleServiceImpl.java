@@ -43,7 +43,7 @@ public class JpaSampleServiceImpl implements JpaSampleService {
 	}
 
 	public List<Book> findOther() {
-		return bookRepositoryImpl.findByPublisher22("日経BP");
+		return bookRepositoryImpl.findByPublisher44("日経BP");
 	}
 
 	public List<Book> findGreater() {
